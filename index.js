@@ -1,6 +1,7 @@
-var students = ["Aaron", "Gael", "Jony"];
-
-while (students.length > 0) {
-    let student = students.pop();
-    console.log(`Hello, ${student}!`);
+function timeRemaining(timeElapsed, endTime) {
+    return (endTime - timeElapsed) / 2;
 }
+
+var left = timeRemaining(42, 140);
+
+console.log(left); // 98

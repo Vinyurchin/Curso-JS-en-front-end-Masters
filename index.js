@@ -1,10 +1,6 @@
-var name = "Diego Cruz"
+var students = ["Aaron", "Gael", "Jony"];
 
-var friends = ["Juan", "Aaron", "Gael"];
-
-console.log(friends.length);
-console.log(friends[1]);
-
-var age =22;
-age = 1 + (age * 2);
-console.log(age);
+while (students.length > 0) {
+    let student = students.pop();
+    console.log(`Hello, ${student}!`);
+}
